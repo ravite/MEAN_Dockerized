@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+
+  client_web:
+    build: Web
+    ports:
+      - "4200:4200"
+  server-app:
+    build: Server
+    ports:
+      - "3000:3000"
+    links:
+      - database
+  database:
+    image: mvertes/alpine-mongo
+    ports:
+      - "27017:27017"

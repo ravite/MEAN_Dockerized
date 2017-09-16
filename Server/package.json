@@ -1,0 +1,17 @@
+{
+  "name": "services-app",
+  "version": "1.0.0",
+  "description": "This application is to serve API for web application.",
+  "main": "server-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server-app.js"
+  },
+  "author": "Hari && Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11"
+  }
+}
