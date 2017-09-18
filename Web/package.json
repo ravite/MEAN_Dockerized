@@ -1,10 +1,10 @@
 {
   "name": "web",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve -H 0.0.0.0",
+    "build": "ng build -H 0.0.0.0",
     "test": "ng test"
   },
   "private": true,
